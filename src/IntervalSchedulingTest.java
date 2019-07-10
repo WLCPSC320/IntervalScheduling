@@ -59,7 +59,7 @@ public class IntervalSchedulingTest {
 
     @Test
     public void testTrivalOneInterval() {
-        System.out.println("testTrivalEmpty");
+        System.out.println("testTrivalOneInterval");
         intervalSet.add(i1);
         intervalScheduling = new IntervalScheduling(intervalSet);
         HashSet<Interval> result = intervalScheduling.findIntervalSet();
